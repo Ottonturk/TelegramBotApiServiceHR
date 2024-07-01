@@ -23,10 +23,9 @@ If you want to deploy your image from Dockerhub to Google cloud:
 ##next actions in the google cloud terminal (previously install google cloud cli):
 
 gcloud auth login
-
 gcloud config set project telegram-bot-hr --this is current project..
 
 
 1. docker login
-2.$ gcloud run deploy telegram-bot-hr --image gcr.io/PROJECT_ID/REPOSIORY_ID:tag --platform=managed --region=us-central1 --allow-unauthenticated --timeout=300
+2. gcloud run deploy telegram-bot-hr --image gcr.io/PROJECT_ID/REPOSIORY_ID:tag --platform=managed --region=us-central1 --allow-unauthenticated --timeout=300
 
