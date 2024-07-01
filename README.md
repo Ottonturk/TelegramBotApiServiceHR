@@ -1,5 +1,5 @@
 # TelegramBotApiServiceHR
-Telegram bot for HR allows you to collect data from recruiters: CV, name, @useramname, cellphone number and save it to dockerhub and deploy into google cloud.
+Telegram bot for HR allows you to collect data from recruiters: CV, name, @useramname, cellphone number and save it to sqlite DB. You may push it to dockerhub and deploy into google cloud.
 
 IF you want to build dockerhub image:
 1. Open folder with the project and select with the reight button f the selector git bash on the "my_telegram_bot"
