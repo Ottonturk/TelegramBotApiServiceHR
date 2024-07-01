@@ -8,11 +8,11 @@ next actions do in the git bash:
 2.docker login 
 ###login to docker/dockerhub app)
 
-3. docker build -t PROJECT_ID/REPOSIORY_ID:tag .
+3. docker build -t PROJECT_ID/REPOSITORY_ID:tag .
 
 ##check in the docker app if it was built in the docker
 
-4. docker push YOUR_PROJECT_ID/YOUR_REPOSIORY_ID:tag
+4. docker push YOUR_PROJECT_ID/YOUR_REPOSITORY_ID:tag
 
 or in the app select button:
 push to dockerhub
