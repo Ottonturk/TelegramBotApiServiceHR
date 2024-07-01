@@ -19,6 +19,7 @@ push to dockerhub
 
 5. Run the app in the docker with 8080:8080 port installed in the app. Check that it works
 
+If you want to deploy your image from Dockerhub to Google cloud:
 ##next actions in the google cloud terminal (previously install google cloud cli):
 
 gcloud auth login
